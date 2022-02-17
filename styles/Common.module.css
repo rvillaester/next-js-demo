@@ -1,0 +1,28 @@
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.waiting {
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.detail {
+  display: table;
+  border-collapse: collapse;
+}
+
+.detail td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+.detail td p {
+  font-weight: bold;
+  text-align: right;
+}
