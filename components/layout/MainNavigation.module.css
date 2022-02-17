@@ -34,18 +34,21 @@
 
   .header li a{
     cursor: pointer;
+    font-size: 18px;
   }
   
   .header a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: #fcb8d2;
+    /* color: #fcb8d2; */
+    color: #6dff99;
   }
   
   .header a:hover,
   .header a:active,
   .header a.active {
     color: white;
+  /* color: #0070f3; */
   }
   
   .actions button {

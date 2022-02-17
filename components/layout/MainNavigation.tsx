@@ -18,11 +18,13 @@ const MainNavigation: React.FC<{}> = () => {
   const onLoginHandler = () => {
     setCookie('isLoggedIn', 'true', 1000);
     setIsLoggedIn(true);
+    window.location.reload();
   };
 
   const onLogoutHandler = () => {
     removeCookie('isLoggedIn');
     setIsLoggedIn(false);
+    window.location.reload();
   };
 
   return (
